@@ -19,6 +19,13 @@ class ViewController: UIViewController {
         imageDesign()
         d_DayDesign()
         pickedDateDesign()
+        
+        //datePicker.preferredDatePickerStyle = .automatic // 월/일/년도 현재시간이 default, 버튼형식으로 월/일/년도, 시간 버튼을 선택하면 각각 캘린더와 시간선택뷰가 나와서 직접 선택 가능, 뷰에 가장 알맞는 스타일 자동 선택
+        datePicker.preferredDatePickerStyle = .inline // 캘린더형식, v15.5를 사용하기 때문에 .inline 채용
+        //datePicker.preferredDatePickerStyle = .wheels //바퀴형 -> 위 아래 슬라이드 / 년도 제외
+        //datePicker.preferredDatePickerStyle = .compact // default 설정
+        
+        
           
     }
     
