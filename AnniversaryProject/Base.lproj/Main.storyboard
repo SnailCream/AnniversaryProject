@@ -18,6 +18,9 @@
                         <subviews>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="Ji4-u2-EgH">
                                 <rect key="frame" x="0.0" y="88" width="414" height="290"/>
+                                <connections>
+                                    <action selector="datePickerClicked:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ius-MU-gHC"/>
+                                </connections>
                             </datePicker>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezq-Ln-raU">
                                 <rect key="frame" x="44" y="448" width="326" height="316"/>
@@ -140,6 +143,13 @@
                                     <constraint firstItem="Xkc-3R-AHT" firstAttribute="centerY" secondItem="leb-Da-4GT" secondAttribute="centerY" id="xnK-9S-Iwm"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeY-BA-AQG">
+                                <rect key="frame" x="121" y="772" width="173" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -157,6 +167,7 @@
                     </view>
                     <connections>
                         <outlet property="datePicker" destination="Ji4-u2-EgH" id="wgm-sm-JNb"/>
+                        <outlet property="testLabel" destination="zeY-BA-AQG" id="Lel-hY-LOE"/>
                         <outletCollection property="d_DayCollection" destination="TTv-rr-6FM" collectionClass="NSMutableArray" id="pvi-PW-I03"/>
                         <outletCollection property="d_DayCollection" destination="OzA-rD-bTv" collectionClass="NSMutableArray" id="0rS-qb-fjW"/>
                         <outletCollection property="d_DayCollection" destination="0h9-GY-GRC" collectionClass="NSMutableArray" id="Mxj-tA-Crb"/>
@@ -173,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104" y="63"/>
+            <point key="canvasLocation" x="-357.97101449275362" y="57.589285714285708"/>
         </scene>
     </scenes>
     <resources>
