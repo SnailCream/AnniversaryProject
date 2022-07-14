@@ -143,13 +143,6 @@
                                     <constraint firstItem="Xkc-3R-AHT" firstAttribute="centerY" secondItem="leb-Da-4GT" secondAttribute="centerY" id="xnK-9S-Iwm"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeY-BA-AQG">
-                                <rect key="frame" x="121" y="772" width="173" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -157,6 +150,7 @@
                             <constraint firstItem="Ezq-Ln-raU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="0gN-5t-08r"/>
                             <constraint firstItem="Ji4-u2-EgH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dsn-wb-bSk"/>
                             <constraint firstItem="Ji4-u2-EgH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Hle-Nd-xSV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ji4-u2-EgH" secondAttribute="bottom" constant="484" id="L6i-qq-txJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ezq-Ln-raU" secondAttribute="bottom" constant="98" id="WdO-9E-Nje"/>
                             <constraint firstItem="Ji4-u2-EgH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yv3-E4-qBT"/>
                             <constraint firstItem="Ezq-Ln-raU" firstAttribute="top" secondItem="Ji4-u2-EgH" secondAttribute="bottom" constant="70" id="oxc-6N-ELa"/>
@@ -167,7 +161,6 @@
                     </view>
                     <connections>
                         <outlet property="datePicker" destination="Ji4-u2-EgH" id="wgm-sm-JNb"/>
-                        <outlet property="testLabel" destination="zeY-BA-AQG" id="Lel-hY-LOE"/>
                         <outletCollection property="d_DayCollection" destination="TTv-rr-6FM" collectionClass="NSMutableArray" id="pvi-PW-I03"/>
                         <outletCollection property="d_DayCollection" destination="OzA-rD-bTv" collectionClass="NSMutableArray" id="0rS-qb-fjW"/>
                         <outletCollection property="d_DayCollection" destination="0h9-GY-GRC" collectionClass="NSMutableArray" id="Mxj-tA-Crb"/>
