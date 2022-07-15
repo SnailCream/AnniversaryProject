@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="Ji4-u2-EgH">
-                                <rect key="frame" x="0.0" y="88" width="414" height="290"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="216"/>
                                 <connections>
                                     <action selector="datePickerClicked:" destination="BYZ-38-t0r" eventType="valueChanged" id="Ius-MU-gHC"/>
                                 </connections>
                             </datePicker>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezq-Ln-raU">
-                                <rect key="frame" x="44" y="448" width="326" height="316"/>
+                                <rect key="frame" x="44" y="506" width="326" height="316"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doughnut" translatesAutoresizingMaskIntoConstraints="NO" id="u64-vY-QVR">
                                         <rect key="frame" x="20" y="168" width="133" height="128"/>
@@ -150,10 +150,8 @@
                             <constraint firstItem="Ezq-Ln-raU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="0gN-5t-08r"/>
                             <constraint firstItem="Ji4-u2-EgH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Dsn-wb-bSk"/>
                             <constraint firstItem="Ji4-u2-EgH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Hle-Nd-xSV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ji4-u2-EgH" secondAttribute="bottom" constant="484" id="L6i-qq-txJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ezq-Ln-raU" secondAttribute="bottom" constant="98" id="WdO-9E-Nje"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ezq-Ln-raU" secondAttribute="bottom" constant="40" id="WdO-9E-Nje"/>
                             <constraint firstItem="Ji4-u2-EgH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yv3-E4-qBT"/>
-                            <constraint firstItem="Ezq-Ln-raU" firstAttribute="top" secondItem="Ji4-u2-EgH" secondAttribute="bottom" constant="70" id="oxc-6N-ELa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ezq-Ln-raU" secondAttribute="trailing" constant="44" id="qvW-n8-diC"/>
                             <constraint firstItem="Ji4-u2-EgH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="qwS-01-RsS"/>
                             <constraint firstItem="Ezq-Ln-raU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="znc-s4-aQ1"/>

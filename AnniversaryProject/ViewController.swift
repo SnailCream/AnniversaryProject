@@ -33,8 +33,8 @@ class ViewController: UIViewController {
         } else {
             datePicker.preferredDatePickerStyle = .wheels
         }
-        
-        datePickerClicked(datePicker)
+//        
+//        datePickerClicked(datePicker)
         
     }
     
